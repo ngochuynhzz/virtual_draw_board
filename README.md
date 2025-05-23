@@ -2,9 +2,15 @@ Mục tiêu:
 -	Thay thế thao tác vẽ truyền thống bằng chuột, bảng vẽ điện tử.
 -	Khi không có bảng vẽ thật hoặc bút cảm ứng, chúng ta có thế vẽ, ghi chú, minh họa ý tưởng trực tiếp lên màn hình bằng đầu bút màu thông qua di chuyển đầu bút màu trước camera.
 
+Ứng dụng:
+-	Dạy học trực tuyến.
+-	Điều khiển thông minh.
+-	Giải trí, sáng tạo nghệ thuật. 
+-	Vẽ tay không cần bảng vẽ thật.
+
 Dùng thư viện:
-OpenCV (cv2): Xử lý ảnh, video, vẽ hình, nhận diện, hiển thị.
-NumPy (numpy): Xử lý mảng (array) số liệu, định nghĩa ngưỡng màu HSV.
+- OpenCV (cv2): Xử lý ảnh, video, vẽ hình, nhận diện, hiển thị.
+- NumPy (numpy): Xử lý mảng (array) số liệu, định nghĩa ngưỡng màu HSV.
 
 1. Khởi tạo, xử lý ảnh, vẽ hình, thu dữ liệu từ camera (image acquisition)
 - Dùng thư viện cv2, numpy.
